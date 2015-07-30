@@ -10,5 +10,5 @@
 </Gather>
 <!– If user doesn’t input anything, prompt and try again. –>
 <Say>Sorry, it looks like you didn't select a sad song. Please select one</Say>
-<Redirect>handle-incoming-call.xml</Redirect>
+<Redirect>https://raw.githubusercontent.com/kylekellyyahner/EmoDial/master/handle-incoming-call.xml</Redirect>
 </Response>
