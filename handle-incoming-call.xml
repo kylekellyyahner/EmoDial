@@ -1,14 +1,12 @@
-<?xml version=”1.0″ encoding=”UTF-8″?>
-<Response>
-<Gather action=”handle-user-input.php” numDigits=”1″>
-<Say voice=”woman” language=”en”>Welcome to Emo Dial, We hope you're having a sad day. Please choose from the following list of early two thousands emo jams
-</Say>
-<Say voice=”woman” language=”en”>To hear You Know How I Do by Taking Back Sunday, please press 1.</Say>
-<Say voice=”woman” language=”en”>To hearJude Law and A Semester Abroad by Brand New, please press 2.</Say>
-<Say voice=”woman” language=”en”>To hear You Vandal by Saves The Day, please press 3.</Say>
-<Say voice=”woman” language=”en”>To hear Alive With The Glory of Love by Say Anything, please press 4.</Say>
-</Gather>
-<!– If user doesn’t input anything, prompt and try again. –>
-<Say>Sorry, it looks like you didn't select a sad song. Please select one</Say>
-<Redirect>https://raw.githubusercontent.com/kylekellyyahner/EmoDial/master/handle-incoming-call.xml</Redirect>
+<?xml version="1.0" encoding="UTF-8"?>
+<Response> 
+  <Gather action="handle-user-input.php" numDigits="1">
+    <Say voice="alice" language="en">Welcome, We hope you are having a very sad day. Please choose from the following list of early two thousands eemoohh jams</Say>
+    <Say voice="alice" language="en">To hear You Know How I Do by Taking Back Sunday, please press 1.</Say>
+    <Say voice="alice" language="en">To hear Jude Law and A Semester Abroad by Brand New, please press 2.</Say>
+    <Say voice="alice" language="en">To hear You Vandal by Saves The Day, please press 3.</Say>
+    <Say voice="alice" language="en">To hear Alive With The Glory of Love by Say Anything, please press 4.</Say>
+  </Gather>
+  <Say voice="alice" language="en">Sorry, it looks like you did not select a sad song. Please select one</Say>
+  <Redirect>incoming-call.xml</Redirect>
 </Response>
